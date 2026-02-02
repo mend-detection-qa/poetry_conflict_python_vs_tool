@@ -70,9 +70,9 @@
                     "operator": "eq",
                     "value": "Trying to obtain version from 5 optional sources ..."
                 },
-                {
-                    "operator": "regex",
-                    "value": "Found Python version \\(3\\.12\\.8\\) for Poetry project at \"/.*poetry_conflict_python_vs_tool.*\""
+                 {
+                  "operator": "regex",
+                  "value": "Found Python version \\(3\\.12\\.8\\) for Poetry project at .*poetry_conflict_python_vs_tool"
                 },
                 {
                     "operator": "eq",
