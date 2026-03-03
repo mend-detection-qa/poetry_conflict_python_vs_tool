@@ -29,9 +29,9 @@
             "_comment_expected_dependencies_number": "Optional. Expected number of dependencies with comparison operator. Operators: gt (>), gte (>=), lt (<), lte (<=), eq (==). If not provided, this check will not be performed.",
             "direct_dependencies_names_list": {
                 "eq": [
-                    "flask-2.3.3-py3-none-any.whl",
-                    "django-4.2.27-py3-none-any.whl",
-                    "requests-2.32.5-py3-none-any.whl"
+                    "flask",
+                    "django",
+                    "requests"
                 ]
             },
             "_comment_dependencies_names_list": "Optional. Check specific libraries in direct dependencies. Operators: eq (==), contains (all items from expected list in actual), in(all items from actual list in expected), nin(actual list does not contain provided libs). If not provided, this check will not be performed.",
